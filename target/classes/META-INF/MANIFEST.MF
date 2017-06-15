@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: RaiseTheBARSClient
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: ben.w.a.abangan
+Implementation-Vendor-Id: org.springframework
+Build-Jdk: 1.8.0_25
+Implementation-URL: http://projects.spring.io/spring-boot/RaiseTheBARS
+ Client/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

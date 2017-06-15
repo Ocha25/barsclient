@@ -1,0 +1,12 @@
+C:\Microservices\workspace\RaiseTheBARSClient\src\main\java\com\accenture\bars\rest\BarsClient.java
+C:\Microservices\workspace\RaiseTheBARSClient\src\main\java\com\accenture\bars\rest\factory\InputFileFactory.java
+C:\Microservices\workspace\RaiseTheBARSClient\src\main\java\com\accenture\bars\rest\dao\RequestDAOImpl.java
+C:\Microservices\workspace\RaiseTheBARSClient\src\main\java\com\accenture\bars\rest\file\AbstractInputFile.java
+C:\Microservices\workspace\RaiseTheBARSClient\src\main\java\com\accenture\bars\rest\file\CSVInputFileImpl.java
+C:\Microservices\workspace\RaiseTheBARSClient\src\main\java\com\accenture\bars\rest\dao\IRequestDAO.java
+C:\Microservices\workspace\RaiseTheBARSClient\src\main\java\com\accenture\bars\rest\file\TextInputFileImpl.java
+C:\Microservices\workspace\RaiseTheBARSClient\src\main\java\com\accenture\bars\rest\file\IInputFile.java
+C:\Microservices\workspace\RaiseTheBARSClient\src\main\java\com\accenture\bars\rest\exception\BarsException.java
+C:\Microservices\workspace\RaiseTheBARSClient\src\main\java\com\accenture\bars\rest\domain\Request.java
+C:\Microservices\workspace\RaiseTheBARSClient\src\main\java\com\accenture\bars\rest\Application.java
+C:\Microservices\workspace\RaiseTheBARSClient\src\main\java\com\accenture\bars\rest\controller\WebController.java

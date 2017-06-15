@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Homepage</title>
+</head>
+<style>
+.error {
+	color: red;
+	font-size: 18px;
+	font-weight: bold;
+	}
+#footer {
+    background-color:white;
+    color:black;
+    clear:both;
+    text-align:center;
+    padding:5px;
+    border:1px solid #999999
+}
+
+</style>
+<body>
+<table id="content"
+	style="min-height: 80px; height: 80px; width: 100%; border: 0px; margin: 0; padding: 0; bordercollapse: collapse; background-color: #800000;">
+	<tr style="height: 60px;">
+		<td><img src="./images/acn_logo.PNG" alt="Banner Image"/></td>
+		<td align="right">
+			<p style="font-family: Calibri, Garamond, Serif;">
+				<font color="white" ><B> Accenture Philippines Delivery Center </B></font>
+			</p>
+			<p style="font-family: Calibri, Garamond, Serif;">
+				<font color="white">Technology  Capability  Fundamentals for Java</font>
+			</p>
+		</td>
+	</tr>
+</table>
+<br></br>
+
+	<br></br><br></br>
+	 <form th:action="parseJson" method="post">
+		 <center>
+			<font size="3.5" style="font-family: Calibri, Garamond, Serif; color: #D2691E;">Billing Automated Request System</font>
+		</center>
+		<br></br>
+		 <hr></hr>
+        <hr></hr>
+		<table align= "center" style="font-family: Calibri, Garamond, Serif; ">
+			<tr>
+			<td colspan="125"><img src="./images/Mentoring_Male_Female4.jpg" height="200" width="200"/></td>
+				<td valign="center">
+					<table align= "center">
+						<tr><td colspan="2" align="center" valign="top" style="height: 68px; "><span class="error" th:text="${error}">error</span></td></tr>
+						<tr><td>Request File :</td><td><input name="path" type="file"/></td></tr>
+						<tr><td></td><td><input type="submit" value="Process"/></td></tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</form>
+<!-- Footer -->
+<div id="footer">
+
+				<p align="center" style="font-family: Calibri, Garamond, Serif;">
+					<font size="1.5">
+						TCF Java - Machine Problem
+					</font>
+				</p>
+</div>
+
+</body>
+</html>

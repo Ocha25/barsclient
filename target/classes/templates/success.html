@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Homepage</title>
+</head>
+<style>
+.error {
+	color: red;
+	font-size: 18px;
+	font-weight: bold;
+	}
+#footer {
+    background-color:white;
+    color:black;
+    clear:both;
+    text-align:center;
+    padding:5px;
+    border:1px solid #999999
+}
+
+</style>
+<body>
+<p th:text="${json}"></p>
+<table id="content"
+	style="min-height: 80px; height: 80px; width: 100%; border: 0px; margin: 0; padding: 0; bordercollapse: collapse; background-color: #800000;">
+	<tr style="height: 60px;">
+		<td><img src="./images/acn_logo.PNG" alt="Banner Image"/></td>
+		<td align="right">
+			<p style="font-family: Calibri, Garamond, Serif;">
+				<font color="white" ><B> Accenture Philippines Delivery Center </B></font>
+			</p>
+			<p style="font-family: Calibri, Garamond, Serif;">
+				<font color="white">Technology  Capability  Fundamentals for Java</font>
+			</p>
+		</td>
+	</tr>
+</table>
+<br></br>
+
+	<br></br><br></br>
+	<form action="" method="POST">
+
+		<center>
+			<font size="3.5"
+				style="font-family: Calibri, Garamond, Serif; color: #D2691E;">Billing
+				Automated Request System</font>
+		</center>
+		<br></br>
+		<br></br>
+
+		<center>
+			<table class="tstyle" align="center">
+				<tr align="center">
+					<th>billing cycle</th>
+					<th>start date</th>
+					<th>end date</th>
+					<th>firstname</th>
+					<th>lastname</th>
+					<th>amount</th>
+				</tr>
+			</table>
+			<font size="5"
+				style="font-family: Calibri, Garamond, Serif; color: green;">Successfully
+				processed Request File.</font>
+
+		</center>
+		<br></br>
+		<br></br>
+		<hr></hr>
+		<hr></hr>
+		<table align="center" style="font-family: Calibri, Garamond, Serif;">
+			<tr>
+				<td colspan="125"><img src="./images/Computer_training2_jpg.jpg"
+					height="200" width="200"/></td>
+				<td align="center">
+					<table align="center">
+						<!-- 	<tr><td font size="15" style="font-family: Calibri, Garamond, Serif; color: #D2691E;">Request Successfuly Processed!!!</td></tr> -->
+						<tr>
+							<td><a href="./index.jsp">Process another Request</a></td>
+						</tr>
+					</table>
+				</td>
+				<!-- 			<td colspan=50><img src="./images/Computer_training2_jpg.jpg" height=200 width=150></td>
+				<td colspan=50><img src="./images/10876_jpg.jpg" height=200 width=250></td>  -->
+
+			</tr>
+		</table>
+	</form>
+	<div id="footer">
+
+		<p align="center" style="font-family: Calibri, Garamond, Serif;">
+			<font size="1.5"> TCF Java - Machine Problem </font>
+		</p>
+	</div>
+	<br>
+	</br>
+	<br>
+	</br>
+</body>
+</html>
